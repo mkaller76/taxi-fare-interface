@@ -1,8 +1,8 @@
-let taxiFareApiUrl = 'https://taxifare-1082554174077.europe-west1.run.app/predict'; // replace with your API endpoint
+let taxiFareApiUrl = 'https://taxifare.lewagon.ai/'; // replace with your API endpoint
 const centralCoordinates = [-74.00597, 40.71427]; // starting position [lng, lat]
 
 if (window.location.href.includes('https://mkaller76.github.io/taxi-fare-interface/')) {
-  taxiFareApiUrl = 'https://taxifare-1082554174077.europe-west1.run.app/predict';
+  taxiFareApiUrl = 'https://taxifare.lewagon.ai/';
 }
 
 mapboxgl.accessToken = 'pk.eyJ1Ijoia3Jva3JvYiIsImEiOiJja2YzcmcyNDkwNXVpMnRtZGwxb2MzNWtvIn0.69leM_6Roh26Ju7Lqb2pwQ';
